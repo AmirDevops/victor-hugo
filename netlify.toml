@@ -3,8 +3,8 @@
   NPM_VERSION = "6.4.1"
 
 [build]
-  base = "victor-hugo"
-  command = "npm run build"
+  base = "/"
+  command = "npm start"
   publish = "dist"
 
 [context.deploy-preview]
